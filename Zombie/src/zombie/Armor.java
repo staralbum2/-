@@ -1,7 +1,7 @@
 package zombie;
 
 abstract public class Armor extends Item{
-	Armor(int defence,int hp){
-		super(defence,hp);
+	Armor(int defence){
+		super(defence);
 	}
 }

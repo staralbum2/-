@@ -1,8 +1,8 @@
 package zombie;
 
-public class OldSword extends Item{
+public class OldSword extends Wepons{
 	public OldSword() {
-		super(10);
+		super(10,5);
 	}
 	
 }
