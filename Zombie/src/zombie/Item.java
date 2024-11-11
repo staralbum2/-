@@ -4,11 +4,14 @@ abstract public class Item {
 	private int power;
 	private int defence;
 	private int critical;
-	Item(int power,int critical){
+	private String name;
+	Item(int power,int critical,String name){
 		this.power = power;
 		this.critical=critical;
+		this.name=name;
 	}
-	Item(int defence){
+	Item(int defence,String name){
 		this.defence = defence;
+		this.name=name;
 	}
 }
