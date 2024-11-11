@@ -1,5 +1,5 @@
 package zombie;
 
-public class DropItem {
+abstract public class DropItem {
 
 }

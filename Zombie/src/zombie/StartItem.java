@@ -1,6 +1,6 @@
 package zombie;
 
-public class StartItem extends item{
+abstract public class StartItem extends item{
 
 	StartItem(int power) {
 		super(power);

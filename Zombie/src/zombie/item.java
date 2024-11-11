@@ -1,6 +1,6 @@
 package zombie;
 
-public class item {
+abstract public class item {
 	private int power;
 	private int defence;
 	private int hp;
