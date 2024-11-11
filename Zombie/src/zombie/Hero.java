@@ -1,8 +1,8 @@
 package zombie;
 
 public class Hero extends Units{
-	Hero(){
-		super(30,3,10,150);
+	Hero(int location){
+		super(30,3,10,150,location);
 	}
 
 	@Override
