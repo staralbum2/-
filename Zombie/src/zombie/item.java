@@ -5,10 +5,11 @@ public class item {
 	private int defence;
 	private int hp;
 	
-	item(int power,int defence,int hp){
-		this.power = power;
+	item(int power){
+		this.power = power;	
+	}
+	item(int defence,int hp){
+		this.hp=hp;
 		this.defence = defence;
-		this.hp = hp;
-		
 	}
 }
