@@ -1,5 +1,5 @@
 package zombie;
 
-public class oldArmor {
+public class oldArmor extends StartItem {
 
 }
