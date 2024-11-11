@@ -10,7 +10,13 @@ abstract public class Units {
 	private Random ran;
 	private int location;
 	private String name;
-	
+	// 리커 카운트를 5제한두고
+	// 휴식 선택지를 고르면 리커카운트 +1 , 한지역에서 쉴수있는 제한을 1회 카운터로 두고
+	// if rest cnt == 0일때만 1개증가하고 휴식 가능한걸로
+	// if restCnt == 1 일땐 메뉴2번 출력
+	// 3번선택지로 저장을
+	// 4번에 종료를 넣고
+	// 5번은 로드
 	Units(int power,int defense,int critical,int hp,String name,int location){
 		this.power = power;
 		this.defense = defense;
