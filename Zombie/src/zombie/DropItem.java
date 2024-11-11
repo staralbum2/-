@@ -1,5 +1,5 @@
 package zombie;
 
-abstract public class DropItem {
+interface DropItem {
 
 }
