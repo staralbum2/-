@@ -9,13 +9,14 @@ abstract public class Units {
 	private int hp;
 	private Random ran;
 	private int location;
+	private String name;
 	
-	
-	Units(int power,int defense,int critical,int hp,int location){
+	Units(int power,int defense,int critical,int hp,String name,int location){
 		this.power = power;
 		this.defense = defense;
 		this.critical = critical;
 		this.hp = hp;
+		this.name = name;
 		ran = new Random();
 		this.location= location;
 	}

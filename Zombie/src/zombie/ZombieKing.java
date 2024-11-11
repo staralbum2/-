@@ -3,7 +3,7 @@ package zombie;
 public class ZombieKing  extends Units{
 
 	ZombieKing() {
-		super(20,15,20,300,15);
+		super(20,15,20,300,"좀비킹",15);
 		
 	}
 
