@@ -1,6 +1,6 @@
 package zombie;
 
-abstract public class Wepons extends item {
+abstract public class Wepons extends Item {
 	Wepons(int power){
 		super(power);
 	}
