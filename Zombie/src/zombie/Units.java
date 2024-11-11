@@ -44,7 +44,12 @@ abstract public class Units {
 	public void setHp(int hp) {
 		this.hp = hp;
 	}
-	
+	public int getLocation() {
+		return location;
+	}
+	public void setLocation(int location) {
+		this.location = location;
+	}
 	public void move() {
 		if(location <=10) location++;
 		System.out.println("오른쪽으로 이동. 현재 위치 : "+ location);
