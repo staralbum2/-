@@ -7,7 +7,7 @@ abstract public class Units {
 	private int defense;
 	private int critical;
 	private int hp;
-	private Random ran;
+	public Random ran;
 	private int location;
 	private String name;
 	// 리커 카운트를 5제한두고
