@@ -5,7 +5,7 @@ import java.util.Random;
 public class Hero extends Units {
 	private Item inventori[] = new Item[10];
 	private Item equipment[] = new Item[2];
-	
+	private int recoveryCnt;
 	
 	Hero(String name, int location) {
 		super(30, 3, 10, 150, name, location);
@@ -17,7 +17,9 @@ public class Hero extends Units {
 		setHp(getHp() + 50);
 		System.out.println("체력 회복해서" + getHp() + "이 되었습니다");
 	}
-
+	public void setRecoveryCnt(int cnt) {
+		this.recoveryCnt = cnt;
+	}
 	public Item[] getInventori() {
 		return this.inventori;
 	}
