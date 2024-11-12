@@ -17,5 +17,15 @@ abstract public class Item {
 	public String getName() {
 		return this.name;
 	}
+	public int getPower() {
+		return this.power;
+	}
+	public int getCritical() {
+		return this.critical;
+	}
+	public int getDefence() {
+		return this.defence;
+	}
+	
 	
 }
