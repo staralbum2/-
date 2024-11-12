@@ -2,7 +2,7 @@ package zombie;
 
 public class Hero extends Units {
 	private Item inventori[] = new Item[10];
-
+	private Item equipment[] = new Item[2];
 	Hero(String name, int location) {
 		super(30, 3, 10, 150, name, location);
 	}
