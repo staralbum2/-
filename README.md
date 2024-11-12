@@ -15,4 +15,4 @@
 >#### Class Diagram
 ![클래스 다이어그램](diagram.png)
 >#### Demo
-![데모영상](주소)
+![데모영상](demo.gif)
