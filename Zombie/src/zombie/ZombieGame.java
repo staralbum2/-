@@ -90,6 +90,7 @@ public class ZombieGame {
 			}
 			if (enemy.getHp() <= 0) {
 				System.out.printf("%s 격파!",enemy.getName());
+				dropItem();
 				break;
 			}
 		}
